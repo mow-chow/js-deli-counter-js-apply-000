@@ -2,7 +2,7 @@ var katzDeliLine = [];
 function takeANumber (katzDeliLine) {
   var number = 1
   katzDeliLine.push(number);
-  number.++();
+  number.++;
   return "You are number " + katzDeliLine.length + " in line.";
 };
 //create an empty array for the current deli line (global variable)
