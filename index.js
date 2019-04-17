@@ -1,7 +1,8 @@
 var katzDeliLine = [];
 function takeANumber (katzDeliLine) {
+  var number = 1
   katzDeliLine.push(number);
-  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.";
+  return You are number " + katzDeliLine.length + " in line.";
 };
 //create an empty array for the current deli line (global variable)
 //create a function that accepts two arguments, current line and name, that adds the new name into the current line
