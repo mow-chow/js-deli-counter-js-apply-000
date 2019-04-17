@@ -1,6 +1,6 @@
 var katzDeliLine = [];
-function takeANumber (katzDeliLine, name) {
-  katzDeliLine.push(name);
+function takeANumber (katzDeliLine) {
+  katzDeliLine.push(number);
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.";
 };
 //create an empty array for the current deli line (global variable)
@@ -37,4 +37,4 @@ function currentLine(katzDeliLine) {
 //if no one in line returns string stating empty
 //if people in line:
 //create a for loop that iterates through the current line array and pushes each name to the empty string using js (.push) method
-//use (.join) method to create a string out of the now filled array 
+//use (.join) method to create a string out of the now filled array
